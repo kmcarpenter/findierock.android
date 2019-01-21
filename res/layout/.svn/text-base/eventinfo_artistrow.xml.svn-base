@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:padding="5dip" android:id="@+id/event_img">
+	<RelativeLayout
+	   	    android:layout_width="wrap_content"
+	   	    android:layout_height="wrap_content"
+	   	    android:clickable="true"
+	   	    android:id="@+id/artist_detail"
+	   		android:onClick="onArtistDetailRowClick" >
+		<ImageView
+		    android:id="@+id/eventlist_pic"
+		    android:layout_width="60dip"
+		    android:layout_height="60dip"
+		    android:layout_alignParentLeft="true"
+		    android:gravity="center_vertical"
+		    android:padding="5dip"
+		    android:src="@drawable/icon" />
+	    <TextView
+	        android:id="@+id/eventlist_artistname"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical"
+	        android:padding="5dip"
+	        android:text="" 
+	        android:layout_toRightOf="@+id/eventlist_pic"
+	        android:layout_toLeftOf="@+id/img_expandable" />
+	    <ImageView
+		        android:id="@+id/img_expandable"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"
+		        android:layout_margin="2dip"
+		        android:src="@drawable/arrow_down_float" />
+	</RelativeLayout>
+    <LinearLayout android:id="@+id/eventlist_artist_operation_row" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:layout_below="@+id/artist_detail"
+        android:visibility="gone">
+    	<TextView android:layout_height="fill_parent" android:layout_width="wrap_content" android:text="@string/detail" android:gravity="center_horizontal" android:padding="5dip" 
+    	    android:id="@+id/eventinfo_btn_artist_detail" android:clickable="true" android:onClick="onShowArtistDetail"
+    	    android:drawableTop="@drawable/ic_launcher_contacts"
+    	    android:layout_weight="1"/>
+    	<TextView android:layout_height="fill_parent" android:layout_width="wrap_content" android:text="@string/favourite" android:gravity="center_horizontal" android:padding="5dip" 
+    	    android:id="@+id/eventinfo_btn_artist_fav" android:clickable="true" android:onClick="onMarkFav"
+    	    android:drawableTop="@drawable/btn_star_big_off"
+    	    android:layout_weight="1"/>
+    	<TextView android:layout_height="fill_parent" android:layout_width="wrap_content" android:text="@string/share" android:gravity="center_horizontal" android:padding="5dip" 
+    	    android:id="@+id/eventinfo_btn_artist_share" android:clickable="true" android:onClick="onArtistShare" 
+    	    android:drawableTop="@drawable/ic_launcher_email_generic"
+    	    android:layout_weight="1"/>
+    </LinearLayout>
+</RelativeLayout>

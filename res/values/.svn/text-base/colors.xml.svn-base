@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<color name="bg_color_dev">#FFFFFF</color>
+	<color name="bg_color">#F2F2F2</color>
+	<color name="radio_color">#000000</color>
+	<color name="bg_color_header">#000000</color>
+</resources>

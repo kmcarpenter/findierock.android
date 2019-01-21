@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/findierock.android/!svn/ver/27/trunk/src/com/zenwerx/findierock/data
+END
+StatusHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/findierock.android/!svn/ver/31/trunk/src/com/zenwerx/findierock/data/StatusHelper.java
+END
+AlbumHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/findierock.android/!svn/ver/31/trunk/src/com/zenwerx/findierock/data/AlbumHelper.java
+END
+VenueHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/findierock.android/!svn/ver/31/trunk/src/com/zenwerx/findierock/data/VenueHelper.java
+END
+FindieDbAdapter.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/findierock.android/!svn/ver/31/trunk/src/com/zenwerx/findierock/data/FindieDbAdapter.java
+END
+AlbumTrackHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/findierock.android/!svn/ver/31/trunk/src/com/zenwerx/findierock/data/AlbumTrackHelper.java
+END
+EventsHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/findierock.android/!svn/ver/31/trunk/src/com/zenwerx/findierock/data/EventsHelper.java
+END
+FavouriteHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/findierock.android/!svn/ver/31/trunk/src/com/zenwerx/findierock/data/FavouriteHelper.java
+END
+ArtistHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/findierock.android/!svn/ver/31/trunk/src/com/zenwerx/findierock/data/ArtistHelper.java
+END
+FindieDbHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/findierock.android/!svn/ver/31/trunk/src/com/zenwerx/findierock/data/FindieDbHelper.java
+END

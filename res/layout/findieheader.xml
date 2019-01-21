@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content" android:id="@+id/tableLayout1" android:stretchColumns="*" android:background="@color/bg_color_header"
+     xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads">
+	<TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+		<ImageView android:layout_width="wrap_content" android:id="@+id/imageView1" android:src="@drawable/findie_title" android:layout_span="3" android:layout_height="30dip" android:layout_gravity="center_vertical|left" android:paddingLeft="5dip"></ImageView>
+        <ImageView android:id="@+id/imageView2" android:layout_height="40dip" android:layout_width="wrap_content" android:src="@drawable/glass" android:clickable="true" android:onClick="onSearch" android:layout_gravity="center_vertical|right"></ImageView>
+	</TableRow>
+    <TableRow>
+        <TextView android:id="@+id/viewTitle" android:textAppearance="?android:attr/textAppearanceSmall" android:textStyle="bold" android:layout_width="wrap_content" android:text="" android:layout_height="wrap_content" android:layout_span="4" android:gravity="center"></TextView>    	
+    </TableRow>
+</TableLayout>

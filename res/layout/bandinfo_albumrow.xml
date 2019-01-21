@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:padding="5dip" android:id="@+id/event_img">
+	<RelativeLayout android:layout_width="wrap_content"
+      	    android:layout_height="wrap_content" 
+			android:padding="5dip"
+			android:clickable="true"
+          		android:onClick="onAlbumDetailRowClick"
+          		android:id="@+id/albumrow_text" >
+		<ImageView android:layout_height="50dip" android:layout_width="50dip" android:gravity="center_vertical" android:paddingLeft="5dip" 
+			android:id="@+id/albumlist_pic" android:src="@drawable/icon" android:layout_alignParentLeft="true" />
+		<ImageView
+	        	        android:id="@+id/img_expandable"
+	        	        android:layout_width="wrap_content"
+	        	        android:layout_height="wrap_content"
+	        	        android:layout_alignParentRight="true"
+	        	        android:layout_centerVertical="true"
+	        	        android:layout_margin="2dip"
+	        	        android:src="@drawable/arrow_down_float" />
+		<LinearLayout android:orientation="vertical" android:id="@+id/linearLayout2" android:layout_height="wrap_content"
+			 android:layout_width="wrap_content" android:layout_toRightOf="@+id/albumlist_pic" android:layout_toLeftOf="@+id/img_expandable">
+			<TextView android:layout_height="fill_parent" android:layout_width="wrap_content" android:text="@string/album" android:gravity="center_vertical" android:paddingLeft="5dip" android:id="@+id/bandinfo_albumname"></TextView>
+			<TextView android:layout_height="fill_parent" android:layout_width="wrap_content" android:text="@string/year" android:gravity="center_vertical" android:paddingLeft="5dip" android:id="@+id/bandinfo_albumreleased"></TextView>
+		</LinearLayout>
+	</RelativeLayout>
+	<LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@+id/albumrow_text" android:visibility="gone"
+	    android:id="@+id/albumlist_album_operation_row">
+        <TextView android:layout_height="fill_parent" android:layout_width="wrap_content" android:text="@string/detail" android:padding="5dip"
+            	android:drawableTop="@drawable/ic_launcher_contacts"
+            	android:id="@+id/albuminfo_btn_album_detail" android:clickable="true" android:onClick="onShowAlbumDetail"
+            	android:layout_weight="1"
+            	android:gravity="center_horizontal"
+            />
+        <TextView android:layout_height="fill_parent" android:layout_width="wrap_content" android:text="@string/favourite" android:padding="5dip" 
+            android:drawableTop="@drawable/btn_star_big_off" 
+            android:id="@+id/albuminfo_btn_album_fav" android:clickable="true" android:onClick="onAlbumFavourite"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            />
+        <TextView android:layout_height="fill_parent" android:layout_width="wrap_content" android:text="@string/share" android:padding="5dip" 
+            android:drawableTop="@drawable/ic_launcher_email_generic" android:id="@+id/albuminfo_btn_album_share" android:clickable="true" android:onClick="onAlbumShare"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            />
+   	</LinearLayout>
+</RelativeLayout>

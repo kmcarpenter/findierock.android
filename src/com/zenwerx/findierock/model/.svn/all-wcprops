@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/findierock.android/!svn/ver/20/trunk/src/com/zenwerx/findierock/model
+END
+Album.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/findierock.android/!svn/ver/31/trunk/src/com/zenwerx/findierock/model/Album.java
+END
+Venue.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/findierock.android/!svn/ver/9/trunk/src/com/zenwerx/findierock/model/Venue.java
+END
+AlbumTrack.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/findierock.android/!svn/ver/31/trunk/src/com/zenwerx/findierock/model/AlbumTrack.java
+END
+Event.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/findierock.android/!svn/ver/20/trunk/src/com/zenwerx/findierock/model/Event.java
+END
+Favourite.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/findierock.android/!svn/ver/9/trunk/src/com/zenwerx/findierock/model/Favourite.java
+END
+Artist.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/findierock.android/!svn/ver/9/trunk/src/com/zenwerx/findierock/model/Artist.java
+END
+Status.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/findierock.android/!svn/ver/8/trunk/src/com/zenwerx/findierock/model/Status.java
+END

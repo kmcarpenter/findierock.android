@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@color/bg_color_dev">
+    <include layout="@layout/findieheader" android:id="@+id/findieHeader"  android:layout_width="fill_parent" android:layout_height="wrap_content"/>
+    <include layout="@layout/findiefooter" android:id="@+id/findieFooter"  android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+	<LinearLayout android:orientation="vertical" android:id="@+id/linearLayout1" android:layout_height="fill_parent" android:layout_width="fill_parent" 
+		android:layout_below="@+id/findieHeader" android:layout_above="@+id/findieFooter" android:layout_alignParentLeft="true">
+	    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2dip" android:layout_marginLeft="2dip">
+	    	<ImageView android:src="@drawable/icon" android:id="@+id/band_photo" android:layout_height="60dip" android:layout_width="60dip"></ImageView>
+		    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5dip">
+			    <TextView android:text="Band Name" android:id="@+id/bandinfo_name" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			    <TextView android:text="Band Website" android:id="@+id/bandinfo_website" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+			    <TextView android:text="@string/band_bio" android:id="@+id/bandinfo_biomore" android:onClick="onBioMore" android:layout_height="wrap_content" android:layout_width="wrap_content" android:clickable="true"> </TextView>
+		    </LinearLayout>
+	    </LinearLayout>
+    	<android.support.v4.view.ViewPager
+	    	android:layout_width="match_parent" 
+		    android:layout_height="match_parent" 
+		    android:id="@+id/bandinfo_pager" />
+	</LinearLayout>
+</RelativeLayout>  
+		

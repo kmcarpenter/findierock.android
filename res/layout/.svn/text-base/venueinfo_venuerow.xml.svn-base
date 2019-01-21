@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:padding="5dip" android:id="@+id/venue_img">
+    <TableLayout android:id="@+id/tableLayout1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stretchColumns="2">
+        <TableRow android:id="@+id/tableRow1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:clickable="true" android:onClick="onVenueDetailRowClick">
+        	<ImageView android:layout_height="60dip" android:layout_width="60dip" android:gravity="center_vertical" android:padding="5dip" android:id="@+id/venuelist_pic" android:src="@drawable/icon" ></ImageView>
+            <TextView android:layout_height="fill_parent" android:layout_width="wrap_content" android:text="" android:gravity="center_vertical" android:padding="5dip" android:id="@+id/venuelist_venuename"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/venuelist_artist_operation_row" android:layout_width="fill_parent" android:layout_height="fill_parent" android:visibility="gone" >
+            <LinearLayout android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_span="3">
+            	<LinearLayout android:layout_width="70dip" android:layout_height="wrap_content"  android:orientation="vertical">
+            		<ImageView android:layout_width="wrap_content" android:layout_margin="2dip" android:layout_height="wrap_content" android:src="@drawable/ic_launcher_home" android:id="@+id/venuelist_btn_venue_view" android:clickable="true" android:onClick="onShowVenue" android:layout_gravity="center_horizontal" />
+            		<TextView android:layout_height="fill_parent" android:layout_width="wrap_content" android:text="Venue Detail" android:gravity="center_horizontal" android:padding="5dip"  android:layout_gravity="center_horizontal"/>
+            	</LinearLayout>
+            	<LinearLayout android:layout_width="70dip" android:layout_height="wrap_content"  android:orientation="vertical">
+            		<ImageView android:layout_width="wrap_content" android:layout_margin="2dip" android:layout_height="wrap_content" android:src="@drawable/ic_launcher_email_generic" android:id="@+id/venuelist_btn_venue_share" android:clickable="true" android:onClick="onShareVenue" android:layout_gravity="center_horizontal"/>
+            		<TextView android:layout_height="fill_parent" android:layout_width="wrap_content" android:text="Share" android:gravity="center_horizontal" android:padding="5dip"  android:layout_gravity="center_horizontal"/>
+            	</LinearLayout>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+			android:layout_width="match_parent" android:id="@+id/tableLayout1" android:layout_height="wrap_content" 
+			android:stretchColumns="*" android:background="@color/bg_color_header">
+    <TableRow android:id="@+id/tableRow1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2dip" android:gravity="center">
+        	<ImageView android:id="@+id/imageView3" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/ic_menu_month"  android:clickable="true" android:onClick="onEventList"></ImageView>
+        	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView1" android:text="@string/title_events"></TextView>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2dip" android:gravity="center">
+        	<ImageView android:id="@+id/imageView4" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/ic_menu_compass" android:clickable="true" android:onClick="onMaps"></ImageView>
+        	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView1" android:text="@string/title_map"></TextView>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2dip" android:gravity="center">
+        	<ImageView android:id="@+id/imageView5" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/ic_menu_star" android:clickable="true" android:onClick="onFavourite"></ImageView>
+        	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView1" android:text="@string/title_favourites"></TextView>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="2dip" android:gravity="center">
+        	<ImageView android:id="@+id/imageView6" android:layout_height="wrap_content" android:layout_width="wrap_content" android:src="@drawable/ic_menu_refresh" android:clickable="true" android:onClick="onRefresh"></ImageView>
+        	<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/textView1" android:text="@string/title_refresh"></TextView>
+        </LinearLayout>
+    </TableRow>
+</TableLayout>
