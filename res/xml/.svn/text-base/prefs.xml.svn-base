@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <EditTextPreference android:title="Event Search Radius" android:defaultValue="50" android:key="maxSearchRadius" android:numeric="integer" android:summary="How far away should we look for events?"></EditTextPreference>
-    <EditTextPreference android:title="Min Update Distance" android:key="minUpdateDistance" android:defaultValue="25" android:numeric="integer" android:summary="How far should you move before we look for new events?"></EditTextPreference>
-    <EditTextPreference android:title="Min Update Hours" android:key="minUpdateHours" android:defaultValue="4" android:numeric="integer" android:summary="How long should we wait before looking for new events?"></EditTextPreference>
-    <CheckBoxPreference android:key="updateOnMobile" android:defaultValue="0" android:summary="Should background udpates happen on mobile data?" android:title="Update on Mobile"></CheckBoxPreference>
-    <ListPreference android:title="Units" android:key="units" android:summary="Should imperial (mi) or metric (km) be used." android:entries="@array/prefUnits" android:entryValues="@array/prefUnitsValues"></ListPreference>
-</PreferenceScreen>
